@@ -16,7 +16,7 @@ export default function Home() {
   const [cidurl, setcidurl] = useState(null);
   const getStorageClient = () => {
     return new Web3Storage({
-      token: process.env.WEB3_STORAGE_TOKEN,
+      token: process.env.NEXT_PUBLIC_WEB3_STORAGE_TOKEN,
     });
   };
   const makeGatewayURL = (cid, path) => {

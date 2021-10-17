@@ -15,12 +15,12 @@ Techs: NextJs - web3.storage (IPFS/Filecoin).
 2. Create a API token for the your DeTodos app
 
 ### Local environment
-1. set WEB3_STORAGE_TOKEN env variable with the token created before
+1. set NEXT_PUBLIC_WEB3_STORAGE_TOKEN env variable with the token created before
 ```json
 module.exports = {
   ...
   env: {
-    WEB3_STORAGE_TOKEN:'YOUR_APP_WEB3_API_TOKEN'
+    NEXT_PUBLIC_WEB3_STORAGE_TOKEN:'YOUR_APP_WEB3_API_TOKEN'
   }
 }
 ```
@@ -39,6 +39,6 @@ vercel
 ```
 2. add env variable
 ```bash
-vercel env add WEB3_STORAGE_TOKEN
+vercel env add NEXT_PUBLIC_WEB3_STORAGE_TOKEN
 ```
 copy/paste API token
