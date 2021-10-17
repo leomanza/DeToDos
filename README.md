@@ -32,7 +32,7 @@ npm run dev
 yarn dev
 ```
 
-### Prod environment
+### DEV environment
 1. deploy
 ```bash
 vercel
@@ -42,3 +42,9 @@ vercel
 vercel env add NEXT_PUBLIC_WEB3_STORAGE_TOKEN
 ```
 copy/paste API token
+
+### Deploy to PROD environment
+1. deploy
+```bash
+vercel --prod
+```
